@@ -12,6 +12,8 @@ def index():
 def uno():
     return render_template('uno.html')
 
+
+
 @app.route('/dos')
 def dos():
     return render_template('dos.html')
